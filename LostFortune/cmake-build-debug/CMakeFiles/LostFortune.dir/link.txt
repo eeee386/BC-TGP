@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LostFortune.dir/main.cpp.o  -o LostFortune 
