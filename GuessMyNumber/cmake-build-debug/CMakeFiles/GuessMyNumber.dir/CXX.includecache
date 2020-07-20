@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sedon/CLionProjects/BC++TGP/GuessMyNumber/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+
