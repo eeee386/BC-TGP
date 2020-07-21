@@ -26,24 +26,28 @@ string toLower(string &str){
 
 int main() {
     std::locale loc;
+
     string word;
     int remainingTries = 8;
     char guess;
     string placeholder;
     vector<string> guessedWords;
     string guessedLetters;
+    string result(word.size(), '_');
+
     cout << "Pick a word: \n";
     cin >> word;
     cout << endl;
     word = toLower(word);
-    string result(word.size(), '_');
     cout << "===================\n";
+
     while (result != word && remainingTries != 0) {
         writeMessage(result, guessedLetters, remainingTries);
         cout << "Guess a letter or the word: ";
         cin >> placeholder;
         cout << endl;
         placeholder = toLower(placeholder);
+
         if (placeholder.size() != 1) {
             --remainingTries;
             guessedWords.emplace_back(placeholder);
@@ -52,6 +56,7 @@ int main() {
             }
             continue;
         }
+
         guess = placeholder[0];
         if (!isalpha(guess)) {
             cout << "This is not a valid guess!" << endl;
@@ -65,7 +70,9 @@ int main() {
         }
         guessedLetters.append(" ").push_back(guess);
     }
+
     writeMessage(result, guessedLetters, remainingTries);
+
     if (word == result) {
         cout << "Congratulations! You guessed the word!" << endl;
     } else {
