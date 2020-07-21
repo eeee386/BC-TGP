@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cctype>
+#include <algorithm>
 
 using std::cout;
 using std::cin;
@@ -8,23 +9,23 @@ using std::endl;
 using std::vector;
 using std::string;
 using std::find;
+using std::find_if;
 using std::tolower;
 
-void writeMessage(const string &result, const string &guessedLetters, const int & remainingTries) {
+void writeMessage(const string &result, const string &guessedLetters, const int &remainingTries) {
     cout << result << "\n";
     cout << "Guessed letters so far: " << guessedLetters << "\n";
     cout << "Remaining tries: " << remainingTries << "\n" << endl;
 }
 
-string toLower(string &str){
-    for(auto& c : str)
-    {
+string toLower(string &str) {
+    for (auto &c : str) {
         c = tolower(c);
     }
     return str;
 };
 
-int main() {
+void hangman() {
     std::locale loc;
 
     string word;
@@ -77,8 +78,42 @@ int main() {
         cout << "Congratulations! You guessed the word!" << endl;
     } else {
         cout << "Game over! The word was: " << word << endl;
-
     }
+}
 
+void gameLibrary() {
+    vector<string> games;
+    vector<string>::const_iterator iter;
+    string answer;
+    string title;
+    while (true){
+        cout << "Choose: list, add, delete or quit: \n";
+        cin >> answer;
+        cout << endl;
+        if (answer == "list") {
+            cout << "Listing games: \n\n";
+            for (iter = games.begin(); iter != games.end(); iter++) {
+                cout << *iter << endl;
+            }
+        } else if(answer == "add") {
+            cout << "\n\nAdd game: ";
+            cin >> title;
+            games.emplace_back(title);
+        } else if (answer == "delete") {
+            cout << "\n\nDelete game: ";
+            cin >> title;
+            iter = find_if(games.begin(), games.end(), [&](const string& i) { return i == title; });
+            games.erase(iter);
+        } else if(answer == "quit"){
+            cout << "\n\nGood-bye";
+            break;
+        } else {
+            cout << "\n\nInvalid input\n\n";
+        }
+    }
+}
+
+int main() {
+    gameLibrary();
     return 0;
 }
