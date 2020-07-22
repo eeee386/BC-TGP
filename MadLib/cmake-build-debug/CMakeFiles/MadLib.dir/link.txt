@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MadLib.dir/main.cpp.o  -o MadLib 
