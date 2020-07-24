@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CritterCaretaker.dir/Critter.cpp.o"
-  "CMakeFiles/CritterCaretaker.dir/main.cpp.o"
-  "CritterCaretaker"
+  "CMakeFiles/CritterCaretaker.dir/Critter.cpp.obj"
+  "CMakeFiles/CritterCaretaker.dir/main.cpp.obj"
+  "CritterCaretaker.exe"
+  "CritterCaretaker.exe.manifest"
   "CritterCaretaker.pdb"
+  "libCritterCaretaker.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

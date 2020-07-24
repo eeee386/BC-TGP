@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.cpp
+C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/Critter.h
+
+C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/main.cpp
 iostream
 -
 Critter.h
-/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.h
-
-/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.h
+C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/Critter.h
 

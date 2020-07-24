@@ -2,21 +2,46 @@
 #include "Critter.h"
 
 using std::cout;
+using std::cin;
 using std::endl;
 
 int main() {
-    Critter crit(5);
-    cout << crit.GetHunger() << endl; ;
+    Critter crit;
+    crit.Talk();
 
-    crit.SetHunger(-1);
+    enum Choices {QUIT, TALK, FEED, PLAY};
+    int choice;
+    do {
+        cout << "\nCritter caretaker.\n\n";
+        cout << "0 - Quit" << endl;
+        cout << "1 - Talk" << endl;
+        cout << "2 - Feed" << endl;
+        cout << "3 - Play" << endl;
 
-    crit.SetHunger(9);
-    crit.Greet();
-    cout << crit.GetHunger();
-    cout << Critter::s_Total << endl;
-    Critter crit2(6);
-    cout << Critter::s_Total << endl;
-    Critter crit3(4);
-    cout << Critter::s_Total << endl;
+        cout << "Choice: ";
+        if(!(cin >> choice)){
+            choice = 4;
+            cin.clear();
+            cin.ignore();
+        };
+
+        switch(choice){
+            case QUIT:
+                cout << "Goodbye!";
+                break;
+            case TALK:
+                crit.Talk();
+                break;
+            case FEED:
+                crit.Eat();
+                break;
+            case PLAY:
+                crit.Play();
+                break;
+            default:
+                cout << "Invalid choice";
+        }
+    } while(choice != QUIT);
+
     return 0;
 }

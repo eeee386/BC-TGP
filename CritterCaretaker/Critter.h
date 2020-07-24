@@ -8,15 +8,15 @@
 
 class Critter {
 public:
-    static int s_Total;
-    static int GetTotal();
-    explicit Critter(int hunger = 0);
-    int GetHunger() const;
-    void SetHunger(int hunger);
-    void Greet() const;
-
+    void Talk();
+    void Eat(int food = 4);
+    void Play(int fun = 4);
+    explicit Critter(int hunger = 0, int boredom = 0);
 private:
     int m_Hunger;
+    int m_Boredom;
+    void PassTime(int time = 1);
+    int GetMood() const;
 };
 
 
