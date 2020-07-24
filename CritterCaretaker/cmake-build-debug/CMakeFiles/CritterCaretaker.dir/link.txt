@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CritterCaretaker.dir/main.cpp.o CMakeFiles/CritterCaretaker.dir/Critter.cpp.o  -o CritterCaretaker 

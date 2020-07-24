@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sedon/CLionProjects/BC++TGP/TicTacToe/main.cpp
+/home/sedon/CLionProjects/BC++TGP/TicTacToe2.0/main.cpp
 iostream
--
-vector
--
-string
--
-algorithm
 -
 

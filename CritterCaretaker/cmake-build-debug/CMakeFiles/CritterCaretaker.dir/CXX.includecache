@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.cpp
+iostream
+-
+Critter.h
+/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.h
+
+/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/Critter.h
+
