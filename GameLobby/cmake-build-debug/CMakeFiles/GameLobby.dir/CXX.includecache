@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Lobby.cpp
+Lobby.h
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Lobby.h
+Player.h
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Player.h
+iostream
+-
+string
+-
+
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Lobby.h
+iostream
+-
+Player.h
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Player.h
+
+C:/Users/User/CLionProjects/BC-TGP/GameLobby/Player.h
+iostream
+-
+string
+-
+

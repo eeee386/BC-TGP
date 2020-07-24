@@ -3,4 +3,4 @@ project(CritterCaretaker)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CritterCaretaker main.cpp Critter.cpp Critter.h)
+add_executable(CritterCaretaker main.cpp)

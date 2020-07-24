@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/Critter.cpp">
-			<Option target="CritterCaretaker"/>
-		</Unit>
-		<Unit filename="C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/Critter.h">
-			<Option target="CritterCaretaker"/>
-		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/main.cpp">
 			<Option target="CritterCaretaker"/>
 		</Unit>

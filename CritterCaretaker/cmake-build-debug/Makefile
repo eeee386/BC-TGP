@@ -122,33 +122,6 @@ CritterCaretaker/fast:
 	$(MAKE) -f CMakeFiles\CritterCaretaker.dir\build.make CMakeFiles/CritterCaretaker.dir/build
 .PHONY : CritterCaretaker/fast
 
-Critter.obj: Critter.cpp.obj
-
-.PHONY : Critter.obj
-
-# target to build an object file
-Critter.cpp.obj:
-	$(MAKE) -f CMakeFiles\CritterCaretaker.dir\build.make CMakeFiles/CritterCaretaker.dir/Critter.cpp.obj
-.PHONY : Critter.cpp.obj
-
-Critter.i: Critter.cpp.i
-
-.PHONY : Critter.i
-
-# target to preprocess a source file
-Critter.cpp.i:
-	$(MAKE) -f CMakeFiles\CritterCaretaker.dir\build.make CMakeFiles/CritterCaretaker.dir/Critter.cpp.i
-.PHONY : Critter.cpp.i
-
-Critter.s: Critter.cpp.s
-
-.PHONY : Critter.s
-
-# target to generate assembly for a file
-Critter.cpp.s:
-	$(MAKE) -f CMakeFiles\CritterCaretaker.dir\build.make CMakeFiles/CritterCaretaker.dir/Critter.cpp.s
-.PHONY : Critter.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... edit_cache
 	@echo ... CritterCaretaker
 	@echo ... rebuild_cache
-	@echo ... Critter.obj
-	@echo ... Critter.i
-	@echo ... Critter.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

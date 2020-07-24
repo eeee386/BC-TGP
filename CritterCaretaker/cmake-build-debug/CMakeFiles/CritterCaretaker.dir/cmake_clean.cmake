@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CritterCaretaker.dir/Critter.cpp.obj"
   "CMakeFiles/CritterCaretaker.dir/main.cpp.obj"
   "CritterCaretaker.exe"
   "CritterCaretaker.exe.manifest"
