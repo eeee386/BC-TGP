@@ -6,35 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/AceCard.h
-Card.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/Card.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.h
 
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/Card.h
-
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Deck/Deck.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Deck/Deck.h
 ../Card/Card.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/Card.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.h
 vector
 -
 
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/GenericPlayer.cpp
-GenericPlayer.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/GenericPlayer.h
-../Card/AceCard.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/AceCard.h
-iostream
--
-algorithm
--
-
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/GenericPlayer.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/GenericPlayer.h
 vector
 -
 string
 -
 ../Card/Card.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/Card.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.h
 ../Deck/Deck.h
-C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Deck/Deck.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Deck/Deck.h
+
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/House.cpp
+House.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/House.h
+iostream
+-
+
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/House.h
+GenericPlayer.h
+/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/GenericPlayer.h
+string
+-
 

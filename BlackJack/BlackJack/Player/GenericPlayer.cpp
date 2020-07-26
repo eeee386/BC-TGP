@@ -9,11 +9,10 @@
 
 void GenericPlayer::DrawCard(Deck &deck) {
     if (cardsValue >= 21) {
-        std::cout << "Cannot draw more";
+        std::cout << "Cannot draw more.\n";
         return;
     }
     Card *card = deck.DrawFromDeck();
-    std::cout << "Here a problem";
     cardsValue += card->GetValue();
     cardsInHand.push_back(*card);
     if (cardsValue > 21) {
@@ -31,10 +30,11 @@ void GenericPlayer::DrawCard(Deck &deck) {
         }
         auto iter = std::find_if(aces.begin(),
                                  aces.end(), [&](AceCard &c) { return c.GetIsEleven(); });
-        iter->switchValue();
-        cardsValue -= 10;
+        if(iter != aces.end()){
+            iter->switchValue();
+            cardsValue -= 10;
+        }
     }
-    delete card;
     card = nullptr;
 }
 
@@ -43,4 +43,14 @@ int GenericPlayer::GetCardsValue() const {
 }
 
 GenericPlayer::GenericPlayer(std::string& name): name(std::move(name)), cardsValue(0) {}
+
+void GenericPlayer::writeOutCards() const {
+    std::cout << "Cards: ";
+    ShowCards();
+    std::cout << "Cards' value: " << GetCardsValue() << "\n";
+}
+
+std::string GenericPlayer::GetName() const {
+    return name;
+}
 

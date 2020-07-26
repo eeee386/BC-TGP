@@ -7,17 +7,19 @@
 
 void House::ShowCards() const {
     for(int i = 0; i < cardsInHand.size(); i++){
-        if(i == 0 && !isBust){
+        if(i == 0 && cardsValue < 17){
             std::cout << "XX ";
             continue;
         }
         cardsInHand[i].ShowCard();
-        std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void House::play(Deck& deck) {
+    std::cout << "Player: " << name << "\n";
     while(cardsValue < 17){
+        writeOutCards();
         DrawCard(deck);
     }
     if(cardsValue > 21){

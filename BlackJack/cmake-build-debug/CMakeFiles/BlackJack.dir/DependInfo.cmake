@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/AceCard.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Card/Card.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/Card.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Deck/Deck.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Deck/Deck.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/GenericPlayer.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/GenericPlayer.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/House.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/House.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/BlackJack/Player/Player.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/Player.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/Practice/Boss.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Boss.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/Practice/Creature.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Creature.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/Practice/Enemy.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Enemy.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/Practice/Orc.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Orc.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/Practice/functions.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/functions.cpp.obj"
-  "C:/Users/User/CLionProjects/BC-TGP/BlackJack/main.cpp" "C:/Users/User/CLionProjects/BC-TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/main.cpp.obj"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/AceCard.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/Card.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Deck/Deck.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Deck/Deck.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/GenericPlayer.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/GenericPlayer.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/House.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/House.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/Player.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/Player.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/Practice/Boss.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Boss.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/Practice/Creature.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Creature.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/Practice/Enemy.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Enemy.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/Practice/Orc.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/Orc.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/Practice/functions.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/Practice/functions.cpp.o"
+  "/home/sedon/CLionProjects/BC++TGP/BlackJack/main.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

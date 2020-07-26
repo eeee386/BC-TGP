@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/main.cpp" "C:/Users/User/CLionProjects/BC-TGP/CritterCaretaker/cmake-build-debug/CMakeFiles/CritterCaretaker.dir/main.cpp.obj"
+  "/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/main.cpp" "/home/sedon/CLionProjects/BC++TGP/CritterCaretaker/cmake-build-debug/CMakeFiles/CritterCaretaker.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

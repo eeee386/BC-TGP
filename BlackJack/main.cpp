@@ -47,4 +47,9 @@ void BlackJack(){
     for(auto & player: players){
         player->play(*deck);
     }
+    cout << "\n\n";
+    for(auto & player: players){
+        cout << player->GetName() << "\n";
+        player->writeOutCards();
+    }
 }

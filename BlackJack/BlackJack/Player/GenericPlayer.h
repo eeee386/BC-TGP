@@ -16,11 +16,13 @@ protected:
     std::vector<Card> cardsInHand;
     int cardsValue;
 public:
+    std::string GetName() const;
     int GetCardsValue() const;
     void DrawCard(Deck & deck);
     virtual void ShowCards() const = 0;
     explicit GenericPlayer(std::string& name);
     virtual void play(Deck& deck) = 0;
+    void writeOutCards() const;
 };
 
 

@@ -8,34 +8,30 @@
 #include <string>
 
 
-Player::Player(std::string & name) : GenericPlayer(name) {}
+Player::Player(std::string &name) : GenericPlayer(name) {}
 
 void Player::ShowCards() const {
-    for(const auto & i : cardsInHand){
+    for (const auto &i : cardsInHand) {
         i.ShowCard();
-        std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void Player::play(Deck &deck) {
-    int in;
+    int in = 0;
+    std::cout << "Player: " << name << "\n";
     std::cout << "Choose: \n";
-    std::cout << "0 - hit\n";
-    std::cout << "1 - stop\n";
-    while(true){
-        if(std::cin >> in){
-            if(in == 0){
-                DrawCard(deck);
-            } else if(in == 1){
-                break;
-            } else {
-                std::cout << "This is not a valid choice!";
-                continue;
-            }
+    std::cout << "1 - hit\n";
+    std::cout << "2 - stop\n";
+    while (true) {
+        writeOutCards();
+        std::cin >> in;
+        if (in == 1) {
+            DrawCard(deck);
+        } else if (in == 2) {
+            break;
         } else {
             std::cout << "This is not a valid choice!";
-            std::cin.ignore();
-            std::cin.clear();
             continue;
         }
     }

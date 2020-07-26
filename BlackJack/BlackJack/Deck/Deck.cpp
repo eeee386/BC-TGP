@@ -34,16 +34,16 @@ Deck::Deck() {
         for (int j = 1; j < 14; j++) {
             switch(i){
                 case 0:
-                    CardCreator(j, SPADES);
+                    cardsInDeck.emplace_back(CardCreator(j, SPADES));
                     break;
                 case 1:
-                    CardCreator(j, HEARTS);
+                    cardsInDeck.emplace_back(CardCreator(j, HEARTS));
                     break;
                 case 2:
-                    CardCreator(j, CLUBS);
+                    cardsInDeck.emplace_back(CardCreator(j, CLUBS));
                     break;
                 case 3:
-                    CardCreator(j, DIAMONDS);
+                    cardsInDeck.emplace_back(CardCreator(j, DIAMONDS));
                     break;
                 default:
                     throw std::domain_error("Invalid Suite");
