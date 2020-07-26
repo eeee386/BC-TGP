@@ -13,11 +13,15 @@ protected:
     const int value;
     const Suit suit;
     const Type type;
+    bool isEleven = true;
 public:
     Card(int value, Suit suit, Type type);
     virtual int GetValue() const;
     void ShowCard() const;
     Type getType() const;
+    Suit getSuit() const;
+    void switchValue();
+    bool GetIsEleven() const;
 };
 
 

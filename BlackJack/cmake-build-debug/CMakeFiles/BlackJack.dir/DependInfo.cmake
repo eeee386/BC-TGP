@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/AceCard.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.o"
   "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Card/Card.cpp.o"
   "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Deck/Deck.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Deck/Deck.cpp.o"
   "/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Player/GenericPlayer.cpp" "/home/sedon/CLionProjects/BC++TGP/BlackJack/cmake-build-debug/CMakeFiles/BlackJack.dir/BlackJack/Player/GenericPlayer.cpp.o"

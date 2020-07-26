@@ -123,33 +123,6 @@ BlackJack/fast:
 	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/build
 .PHONY : BlackJack/fast
 
-BlackJack/Card/AceCard.o: BlackJack/Card/AceCard.cpp.o
-
-.PHONY : BlackJack/Card/AceCard.o
-
-# target to build an object file
-BlackJack/Card/AceCard.cpp.o:
-	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.o
-.PHONY : BlackJack/Card/AceCard.cpp.o
-
-BlackJack/Card/AceCard.i: BlackJack/Card/AceCard.cpp.i
-
-.PHONY : BlackJack/Card/AceCard.i
-
-# target to preprocess a source file
-BlackJack/Card/AceCard.cpp.i:
-	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.i
-.PHONY : BlackJack/Card/AceCard.cpp.i
-
-BlackJack/Card/AceCard.s: BlackJack/Card/AceCard.cpp.s
-
-.PHONY : BlackJack/Card/AceCard.s
-
-# target to generate assembly for a file
-BlackJack/Card/AceCard.cpp.s:
-	$(MAKE) -f CMakeFiles/BlackJack.dir/build.make CMakeFiles/BlackJack.dir/BlackJack/Card/AceCard.cpp.s
-.PHONY : BlackJack/Card/AceCard.cpp.s
-
 BlackJack/Card/Card.o: BlackJack/Card/Card.cpp.o
 
 .PHONY : BlackJack/Card/Card.o
@@ -456,9 +429,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BlackJack"
-	@echo "... BlackJack/Card/AceCard.o"
-	@echo "... BlackJack/Card/AceCard.i"
-	@echo "... BlackJack/Card/AceCard.s"
 	@echo "... BlackJack/Card/Card.o"
 	@echo "... BlackJack/Card/Card.i"
 	@echo "... BlackJack/Card/Card.s"

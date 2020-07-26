@@ -55,7 +55,7 @@ Deck::Deck() {
 Card Deck::CardCreator(int counter, Suit suit) {
     switch (counter) {
         case (1):
-            return {1, suit, ACE};
+            return {11, suit, ACE};
         case (2) :
             return {2, suit, TWO};
         case (3) :

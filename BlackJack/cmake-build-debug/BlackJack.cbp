@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/AceCard.cpp">
-			<Option target="BlackJack"/>
-		</Unit>
-		<Unit filename="/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/AceCard.h">
-			<Option target="BlackJack"/>
-		</Unit>
 		<Unit filename="/home/sedon/CLionProjects/BC++TGP/BlackJack/BlackJack/Card/Card.cpp">
 			<Option target="BlackJack"/>
 		</Unit>

@@ -72,9 +72,25 @@ void Card::ShowCard() const {
 }
 
 int Card::GetValue() const {
+    if(type == ACE && !isEleven){
+        return value - 10;
+    }
     return value;
 }
 
 Type Card::getType() const {
     return type;
 }
+
+Suit Card::getSuit() const {
+    return suit;
+}
+
+void Card::switchValue() {
+    isEleven = !isEleven;
+}
+
+bool Card::GetIsEleven() const {
+    return isEleven;
+}
+

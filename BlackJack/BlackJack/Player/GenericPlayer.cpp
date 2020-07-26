@@ -3,7 +3,6 @@
 //
 
 #include "GenericPlayer.h"
-#include "../Card/AceCard.h"
 #include <iostream>
 #include <algorithm>
 
@@ -16,26 +15,16 @@ void GenericPlayer::DrawCard(Deck &deck) {
     cardsValue += card->GetValue();
     cardsInHand.push_back(*card);
     if (cardsValue > 21) {
-        //I am not sure of this
-        std::vector<Card> acesCard;
-        std::vector<AceCard> aces;
-        std::copy_if(
-                cardsInHand.begin(),
-                cardsInHand.end(),
-                std::back_inserter(acesCard),
-                [&](Card &c) { return c.getType() == ACE; });
-        for(auto & i: acesCard){
-            auto* ace = dynamic_cast<AceCard*>(&i);
-            aces.push_back(*ace);
-        }
-        auto iter = std::find_if(aces.begin(),
-                                 aces.end(), [&](AceCard &c) { return c.GetIsEleven(); });
-        if(iter != aces.end()){
-            iter->switchValue();
-            cardsValue -= 10;
+        for (auto & c : cardsInHand){
+            if(c.getType() == ACE){
+                if(c.GetIsEleven()){
+                    c.switchValue();
+                    cardsValue -=10;
+                    break;
+                }
+            }
         }
     }
-    card = nullptr;
 }
 
 int GenericPlayer::GetCardsValue() const {
